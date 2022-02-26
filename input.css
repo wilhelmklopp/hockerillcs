@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Myriad Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Light'), url('MyriadPro-Light.woff') format('woff');
+}
+
+body {
+    font-family: 'Myriad Pro Light', sans-serif;
+}
+
+a {
+    text-decoration: underline;
+}
